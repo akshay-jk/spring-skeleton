@@ -9,9 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class UserDTO {
-    private int Id;
-    private String Name;
-    private int Age;
-    private String MotherTongue;
+public class RestApiUserDTO {
+    private int id;
+    private String name;
+    private String username;
+    private String phone;
+    private String website;
 }

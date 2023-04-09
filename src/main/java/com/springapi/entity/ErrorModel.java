@@ -1,4 +1,4 @@
-package com.springapi.dto;
+package com.springapi.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class UserDTO {
-    private int Id;
-    private String Name;
-    private int Age;
-    private String MotherTongue;
+public class ErrorModel {
+    private String ErrorMessage;
+    private String ErrorCode;
 }
